@@ -1,0 +1,10 @@
+version: "2"
+services:
+  site:
+    command: jekyll serve --force_polling
+    image: jekyll/jekyll:3.8
+    volumes:
+      - ./docs:/srv/jekyll
+      - ./bundle:/usr/local/bundle
+    ports:
+      - 4001:4000

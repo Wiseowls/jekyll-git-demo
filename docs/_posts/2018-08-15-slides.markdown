@@ -1,0 +1,17 @@
+---
+layout: slide
+title:  "Slides"
+description: Slides to go here
+date:   2018-08-15 12:04:19 +1300
+theme: white
+permalink: /slides
+---
+
+{% for slide in site.slides %}
+<section>
+	{{ slide.content | markdownify }}
+	{%if slide.javascript %}
+		{{ slide.javascript}}
+	{% endif %}
+</section>
+{% endfor %}

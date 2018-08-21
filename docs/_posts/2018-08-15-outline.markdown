@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Session outline"
+date:   2018-08-15 11:04:19 +1300
+---
+
+1. Main presentation (1-2 presenters)
+	* [what is GIT](/slides#/0)
+	* [difference between GIT & TFS](/slides#/3)
+	* [example usage](/slides#/6)
+	* [GIT clients, command line, SourceTree, VS built-in](https://git-scm.com/download/gui/windows)
+	* GIT + devops (talk about how this repo is set up)
+	* etc
+1. Several presenters talk about or show and tell their current and past work experiences with GIT	
+	* setting up SSH keys for repo
+	* *demo:* clone this repo, change content on one of the pages, check back in	
+	* disaster recovery tools (undo last change made in previous step)
+	* migrating from TFS ?
+1. Q&A
